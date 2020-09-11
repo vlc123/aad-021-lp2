@@ -6,4 +6,6 @@
     <color name="md_white_1000">#fff</color>
     <color name="md_grey_200">#EEEEEE</color>
     <color name="md_yellow_800">#F9A825</color>
+    <color name="md_grey_600">#757575</color>
+    <color name="md_warning_color">#D3BD3C</color>
 </resources>

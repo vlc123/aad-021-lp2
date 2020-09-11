@@ -78,6 +78,7 @@
                 android:weightSum="2">
 
                 <EditText
+                    android:id="@+id/firstname"
                     android:layout_width="0dp"
                     android:layout_height="60dp"
                     android:layout_weight="1"
@@ -88,6 +89,7 @@
                     android:paddingEnd="12dp"/>
 
                 <EditText
+                    android:id="@+id/lastname"
                     android:layout_width="0dp"
                     android:layout_height="60dp"
                     android:layout_weight="1"
@@ -100,6 +102,7 @@
             </LinearLayout>
 
             <EditText
+                android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="@drawable/rounded_edittext"
@@ -109,6 +112,7 @@
                 android:paddingEnd="12dp"/>
 
             <EditText
+                android:id="@+id/github"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="@drawable/rounded_edittext"
@@ -118,6 +122,7 @@
                 android:paddingEnd="12dp"/>
 
             <Button
+                android:id="@+id/projectSubmit"
                 android:layout_width="170dp"
                 android:layout_height="46dp"
                 android:text="Submit"
