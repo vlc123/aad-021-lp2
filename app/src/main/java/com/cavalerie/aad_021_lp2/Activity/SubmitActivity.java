@@ -164,23 +164,23 @@ public class SubmitActivity extends AppCompatActivity {
         boolean valid = true;
 
         if (firstname.getText().toString().trim().equals("")){
+            valid = false;
             firstname.setError("firstname required");
-            return false;
         }
 
         if (lastname.getText().toString().trim().equals("")){
+            valid = false;
             lastname.setError("lastname required");
-            return false;
         }
 
         if (email.getText().toString().trim().equals("")){
+            valid = false;
             email.setError("email required");
-            return false;
         }
 
         if (github.getText().toString().trim().equals("")){
+            valid = false;
             github.setError("github required");
-            return false;
         }
 
         return valid;
